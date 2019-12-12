@@ -1,0 +1,43 @@
+{
+    "status": "ok",
+    "result": 2,
+    "total": 100,
+    "examples": [
+        {
+            "id": "1-1",
+            "name": "Model 1",
+            "child": {
+                "id": "2-1",
+                "name": "Submodel 1",
+                "childs": [
+                    {
+                        "nounique": "3",
+                        "name": "Subsubmodel 1"
+                    },
+                    {
+                        "nounique": "3",
+                        "name": "Subsubmodel 2"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1-2",
+            "name": "Model 2",
+            "child": {
+                "id": "2-2",
+                "name": "Submodel 2",
+                "childs": [
+                    {
+                        "nounique": "3",
+                        "name": "Subsubmodel 3"
+                    },
+                    {
+                        "nounique": "3",
+                        "name": "Subsubmodel 4"
+                    }
+                ]
+            }
+        }
+    ]
+}

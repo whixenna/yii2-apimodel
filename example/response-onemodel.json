@@ -1,0 +1,22 @@
+{
+    "status": "ok",
+    "total": 100,
+    "example": {
+        "id": "1-1",
+        "name": "Model 1",
+        "child": {
+            "id": "2-1",
+            "name": "Submodel 1",
+            "childs": [
+                {
+                    "nounique": "3",
+                    "name": "Subsubmodel 1"
+                },
+                {
+                    "nounique": "3",
+                    "name": "Subsubmodel 2"
+                }
+            ]
+        }
+    }
+}
